@@ -24,6 +24,21 @@ public class InfinityModItems {
             new Item(new FabricItemSettings().
                     group(ItemGroup.MISC)));
 
+    public static final Item Z_STONE_BLOCK = registerItem(
+            "z_stone_block",
+            new Item(new FabricItemSettings().
+                    group(ItemGroup.MISC)));
+
+    public static final Item RARE_RAINBOW_STONE_BLOCK = registerItem(
+            "rare_rainbow_stone_block",
+            new Item(new FabricItemSettings().
+                    group(ItemGroup.MISC)));
+
+    public static final Item WHITE_ULTRA_INFINITY_CONCRETE = registerItem(
+            "white_ultra_infinity_concrete",
+            new Item(new FabricItemSettings().
+                    group(ItemGroup.MISC)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Main.MOD_ID, name), item);
