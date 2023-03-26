@@ -1,5 +1,8 @@
 {
   "item.infinitymod.white_infinity_concrete" : "infinite white concrete",
   "item.infinitymod.rainbow_infinity_concrete" : "infinite rainbow concrete",
-  "item.infinitymod.rare_rainbow_infinity_concrete" : "rare infinite rainbow concrete"
+  "item.infinitymod.rare_rainbow_infinity_concrete" : "rare infinite rainbow concrete",
+  "item.infinitymod.white_ultra_infinity_concrete" : "white ultra infinity concrete",
+  "item.infinitymod.rare_rainbow_stone_block" : "rare rainbow stone",
+  "item.infinitymod.z_stone_block" : "'Z' stone"
 }
