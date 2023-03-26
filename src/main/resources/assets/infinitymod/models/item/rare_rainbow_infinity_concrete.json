@@ -1,0 +1,7 @@
+{
+  "parent" : "item/generated",
+  "textures" : {
+    "layer0" : "infinitymod:item/rare_rainbow_infinity_concrete"
+  }
+
+}

@@ -1,5 +1,6 @@
 package dev.mundo.infinitymod;
 
+import dev.mundo.infinitymod.item.InfinityModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,9 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("initializing Infinity Mod");
+
+		InfinityModItems.registerModItems();
 
 	}
 }
