@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "infinitymod",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MundO Infinity Mod",
+  "description": "MundO Infinity Mod is a Minecraft mod that introduces a new and exciting feature to the game - a custom concrete block that has an infinite amount of uses in survival mode. This means that players can craft and use as much of this block as they want, without worrying about running out of resources. With MundO Infinity Mod, players can create intricate and detailed structures using this versatile and durable block, allowing for even more creativity and imagination in their Minecraft gameplay. Whether you're a seasoned Minecraft player or a newcomer to the game, MundO Infinity Mod is a must-have mod for anyone looking to take their building skills to the next level.",
   "authors": [
-    "Kaupenjoe"
+    "Dominic Gerweck",
+    "Maximilian Metzger"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,19 +15,19 @@
   },
 
   "license": "MIT License",
-  "icon": "assets/first-mod/icon.png",
+  "icon": "assets/infinitymod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.kaupenjoe.tutorialmod.TutorialMod"
+      "dev.mundo.infinitymod.Main"
     ],
     "client": [
-      "net.kaupenjoe.tutorialmod.TutorialModClient"
+      "dev.mundo.infinitymod.Client"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "infinitymod.mixins.json"
   ],
 
   "depends": {
